@@ -13,12 +13,28 @@
     "url": "https://github.com/acorn-playground/vscode-macbeeb/issues"
   },
   "homepage": "https://github.com/acorn-playground/vscode-macbeeb#readme",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1A1A1A",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
     "Debuggers",
     "Programming Languages"
+  ],
+  "keywords": [
+    "bbc micro",
+    "6502",
+    "acorn",
+    "emulator",
+    "bbc basic",
+    "beebasm",
+    "baron",
+    "ca65",
+    "retro"
   ],
   "main": "./extension.js",
   "activationEvents": [

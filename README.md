@@ -5,10 +5,17 @@ in your assembler source (from ld65 debug info), conditional breakpoints and
 log points, stepping over, into, out of and back, registers you can edit,
 memory, disassembly, and watchpoints (data breakpoints) on any address. It
 talks to MacBeeb over the Debug Adapter Protocol on localhost port 6502
-(Settings > Debugging in MacBeeb). [MacBeeb](https://github.com/JamesRandall/macbeeb)
-is a BBC Micro emulator for the Mac.
+(Settings > Debugging in MacBeeb).
+
+**You need [MacBeeb](https://github.com/JamesRandall/macbeeb), the BBC
+Micro emulator for the Mac** ([download](https://github.com/JamesRandall/macbeeb/releases/latest);
+macOS 26). The extension starts it if it isn't running. MacBeeb assembles
+BeebAsm and Baron sources itself, so for those there's nothing else to
+install.
 
 ## Install
+
+From the Extensions view: search for "MacBeeb". Or build it yourself:
 
     git clone https://github.com/acorn-playground/vscode-macbeeb.git
     cd vscode-macbeeb
