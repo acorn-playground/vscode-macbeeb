@@ -3,7 +3,7 @@
   "displayName": "MacBeeb: BBC Micro debugger",
   "description": "Debug 6502 programs and BBC BASIC on MacBeeb's emulated BBC Micro: assemble BeebAsm or Baron sources and run them, source breakpoints (BeebAsm, Baron or ld65 debug info), breakpoints in BBC BASIC programs (.bas), stepping (and stepping back), registers, BASIC variables, memory, watchpoints.",
   "version": "0.1.0",
-  "publisher": "accidentalfish",
+  "publisher": "AcornPlayground",
   "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
